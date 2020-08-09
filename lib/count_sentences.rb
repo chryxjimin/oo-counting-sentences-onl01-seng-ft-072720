@@ -33,7 +33,8 @@ class String
      elsif self.count_sentences == 1
        puts "1"
      else
-       puts "self.split("!", ".", "?") << self.count"
+       self.split("!", ".", "?")
+       puts "self.count"
       end
   #binding.pry
 end
