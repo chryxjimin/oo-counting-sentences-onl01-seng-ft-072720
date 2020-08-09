@@ -8,7 +8,7 @@ class String
     else
       false
     end
-    #binding.pry
+    
   end
 
   def question?
@@ -28,6 +28,7 @@ class String
   end
 
   def count_sentences
-
+     self.count_sentences
   end
+  #binding.pry
 end
