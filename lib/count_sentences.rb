@@ -37,5 +37,4 @@ class String
        #self.split("!", ".", "?")
        #puts "self.count"
      end
-
 end
