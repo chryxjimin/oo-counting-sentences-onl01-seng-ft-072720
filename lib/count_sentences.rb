@@ -28,12 +28,12 @@ class String
   end
 
   def count_sentences
-     if self.count_sentences == 0
+     if self.count_sentences < 1
        puts "0"
      elsif self.count_sentences == 1
        puts "1"
      else
        puts "self.split("!", ".", "?") << self.count"
-  end
+      end
   #binding.pry
 end
