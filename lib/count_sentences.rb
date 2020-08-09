@@ -35,6 +35,6 @@ class String
      else
        self.split("!", ".", "?")
        puts "self.count"
-      end
-  #binding.pry
+     end
+  binding.pry
 end
