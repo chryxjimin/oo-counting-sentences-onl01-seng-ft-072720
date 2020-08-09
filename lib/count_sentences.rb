@@ -6,7 +6,7 @@ class String
     if self.end_with?(".")
       self
     end
-    binding.pry
+    #binding.pry
   end
 
   def question?
