@@ -4,7 +4,7 @@ class String
 
   def sentence?
     if self.end_with?(".")
-      self
+      true
     end
     #binding.pry
   end
